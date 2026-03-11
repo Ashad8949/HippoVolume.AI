@@ -1,0 +1,77 @@
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+
+# ===== Virtual Environments =====
+.venv/
+venv/
+env/
+ENV/
+.conda/
+.condarc
+
+# ===== Conda Environment Specs =====
+**/environment.yml
+
+# ===== IDE & Editor =====
+.vscode/
+.vscode-server/
+.windsurf-server/
+.idea/
+*.iml
+*.swp
+*.swo
+*~
+
+# ===== Jupyter / IPython =====
+.ipynb_checkpoints/
+.jupyter/
+.ipython/
+
+# ===== TensorBoard Runs =====
+section2/src/runs/
+
+# ===== Output Directories =====
+section1/out/
+section2/out/
+section3/out/
+
+# ===== Logs =====
+section2/src/training_log.txt
+
+# ===== Lightning Studio =====
+.lightning_studio/
+.lightningignore
+
+# ===== System / Shell Config =====
+.cache/
+.config/
+.local/
+.nvm/
+.oh-my-zsh/
+.docker/
+.ssh/
+.copilot/
+.bashrc
+.zshrc
+.zsh_history
+.vimrc
+.profile
+.hushlogin
+.curl-server
+.wget-hsts
+.gitconfig
+.sudo_as_admin_successful
+.github/
